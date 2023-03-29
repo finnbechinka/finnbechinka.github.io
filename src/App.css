@@ -4,3 +4,20 @@
   padding: 2rem;
   text-align: center;
 }
+
+.banner{
+  padding: 5rem;
+  box-shadow: 0px 0px 15px 20px #3e3e3e1f;
+  background: #3e3e3e1f;
+}
+
+.banner h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.banner h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
