@@ -14,13 +14,31 @@
 .banner{
   margin: 20vh 5vw 0 5vw;
   padding: 1rem;
-  box-shadow: 0rem 0rem 15px 30px #3e3e3e1f;
   background: #3e3e3e1f;
+  transition: .5s;
+}
+
+.banner:hover{
+  box-shadow: 0rem 0rem 1rem 2rem#646cff33;
+  background: #646cff33;
+  transition: .5s;
+}
+
+.banner:hover h1{
+  transition: .5s;
+  font-size: 3em;
+}
+
+.banner:hover~ .socials .logo{
+  transform: scale(.5);
+  transition: .5s;
 }
 
 .banner h1 {
   font-size: 2.7em;
+  transition: .5s;
 }
+
 
 .banner p {
   font-size: 1.2em;
@@ -37,6 +55,7 @@
   height: 2.5em;
   padding: 1.5em;
   transition: filter 300ms;
+  transition: .5s;
 }
 
 .logo:hover {
