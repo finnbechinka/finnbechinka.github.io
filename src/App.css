@@ -1,23 +1,54 @@
 #root {
-  max-width: 1280px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App{
+  width: 50vw;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  overflow: hidden;
 }
 
 .banner{
-  padding: 5rem;
-  box-shadow: 0px 0px 15px 20px #3e3e3e1f;
+  margin-top: 25vh;
+  padding: 5rem 10rem;
+  box-shadow: 0rem 0rem 0.75rem 1.5rem #3e3e3e1f;
   background: #3e3e3e1f;
 }
 
 .banner h1 {
-  padding-bottom: 0;
-  margin-bottom: 0;
+  font-size: 3.2em;
 }
 
-.banner h1 {
-  padding-bottom: 0;
-  margin-bottom: 0;
+.banner p {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.socials{
+  margin-top: 35vh;
+  animation: scroll-in 3s;
+}
+
+.logo {
+  height: 2.5em;
+  padding: 1.5em;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 .5em #646cffaa);
+}
+
+@keyframes scroll-in{
+  0%{
+    transform: translateY(10vh) scale(.5);
+  }
+  100%{
+    transform: translateY(0) scale(1);
+  }
 }
 
