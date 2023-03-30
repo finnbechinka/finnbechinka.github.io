@@ -12,7 +12,7 @@
 }
 
 .banner{
-  margin-top: 20vh;
+  margin: 20vh 5vw 0 5vw;
   padding: 1rem;
   box-shadow: 0rem 0rem 15px 30px #3e3e3e1f;
   background: #3e3e3e1f;
