@@ -1,0 +1,53 @@
+.dotContainer{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 24vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  flex-wrap: wrap;
+}
+
+.dotContainer span{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  animation: animateColor 5s linear infinite;
+  opacity: 30%;
+}
+
+@keyframes animateColor{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+.dotContainer span::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 125%;
+  height: 125%;
+  background: #00ff0a;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ff0a
+              0 0 20px #00ff0a
+              0 0 40px #00ff0a;
+  transition: 2s;
+  transform: scale(0);
+}
+
+.dotContainer span:hover::before{
+  transition: .15s;
+  transform: scale(1);
+}
