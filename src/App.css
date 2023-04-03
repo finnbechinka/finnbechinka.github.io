@@ -28,8 +28,8 @@
 }
 
 .banner:hover{
-  box-shadow: 0rem 0rem 1rem 2rem#646cff33;
-  background: #646cff33;
+  box-shadow: 0rem 0rem 1rem 2rem#646cff23;
+  background: #646cff23;
   transition: .5s;
 }
 
@@ -66,8 +66,16 @@
   transition: .5s;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 .5em #646cffaa);
+.linkedin:hover {
+  filter: drop-shadow(0 0 .5em #0a66c2);
+}
+
+.github:hover{
+  filter: drop-shadow(0 0 .5em #f0f6fc);
+}
+
+.stackoverflow:hover{
+  filter: drop-shadow(0 0 .5em #f48224);
 }
 
 @keyframes scroll-in{
