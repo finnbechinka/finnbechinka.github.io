@@ -4,7 +4,7 @@ import "../styles/MouseEffect.css";
 function MouseEffect() {
   function spawnSpans() {
     let spans = [];
-    for (let i = 0; i < 300; i++) {
+    for (let i = 0; i < 1000; i++) {
       spans.push(<span />);
     }
     spans[0];
